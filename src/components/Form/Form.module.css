@@ -1,0 +1,59 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 5rem;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.formHead {
+  font-weight: bolder;
+}
+
+.inputLabel {
+  font-size: small;
+  color: rgb(120, 120, 120);
+}
+
+.formInput {
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0.6rem;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: 0.5px 0.5px rgb(232 232 232);
+  width: 17.5rem;
+}
+
+.phone {
+  width: 10rem;
+}
+
+.checkSection {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: small;
+}
+
+.submit {
+  background: #33adff;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 3rem;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
